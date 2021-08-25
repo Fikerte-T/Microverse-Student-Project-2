@@ -54,3 +54,11 @@ body {
   background: #2230d2;
   color: #fff;
 }
+
+.aboutme-text {
+  width: 50%;
+}
+
+ul ul {
+  list-style-type: none;
+}
