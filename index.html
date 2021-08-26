@@ -16,7 +16,7 @@
         rel="stylesheet">
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
-  <nav class="navbar navbar-expand-sm">
+  <nav class="navbar navbar-expand-sm px-5">
       <!-- Brand/logo -->
       <a class="navbar-brand" href="#">Logo</a>
       
@@ -34,8 +34,8 @@
       </ul>
     </nav>
     <main>
-      <section id="portfolio">
-        <div class="headline col-md-8 offset-md-2 container row">
+      <section id="portfolio" class="row container">
+        <div class="headline col-md-8 offset-md-2">
           <h1>I’m Fikerte Glad to see you!</h1>
           <p>I’m a software developer! I can help you build a product ,
               feature or website Look through some of my work and experience!
@@ -50,8 +50,8 @@
           </div>
         </div>
       </section>
-  </main>
-  <section class="d-flex flex-column align-items-center">
+    </main>
+    <section class="d-flex flex-column align-items-center">
         <section class="card card-works d-flex flex-row mt-2">
           <img class="card-img-left works-image" src="images/Snapshoot-Portfolio-desktop-1.png" alt="Card image">
             <div class="card-body works-text mt-5">
@@ -149,14 +149,13 @@
             </div>
         </section>
     </section>
-    <section class="d-flex mt-3 border">
-        <section id="about" class="aboutme-text">
+    <section class="aboutme-container d-flex mt-3 align-items-center">
+        <section id="about" class="aboutme-text mr-2 p-5">
             <div class="">
-              <h1>I’m Fikerte Glad to see you!</h1>
-              <p>I’m a software developer! I can help you build a product ,
-                  feature or website Look through some of my work and experience!
-                    If you like what you see and have a project you need coded,
-                    don’t hestiate to contact me.</p>
+              <h1>About Myself</h1>
+              <p>Hello I’m a software developer! I can help you build a product , 
+                  feature or website Look through some of my work and experience! If you 
+                  like what you see and have a project you need coded, don’t hestiate to contact me.</p>
               <a class="text-decoration-none rounded-pill" href="#">Let's connect</a>
               <div class="list-inline d-flex">
                 <a href="#" class="mx-2"><i class="fab fa-twitter"></i></a>
@@ -168,35 +167,38 @@
           </section>
     
         <section class="aboutme-skills">
-            <ul class="skill-list list-inline">
-                <li class="list-head first">Languages <a href="#"><i class="fas fa-chevron-down"></i></a></li>
+            <ul class="skill-list list-inline text-decoration-none">
+                <li class="d-flex flex-row justify-content-between mt-4">Languages <a href="#"><i class="fas fa-chevron-down align-self"></i></a></li>
                 <li>
-                    <ul class="d-flex list-inline text-decoration-none">
-                        <li class="second-list border d-flex flex-column px5"><img src="/images/js-img.png" class="mb-4" alt=""><div>Javascript</div></li>
-                        <li class="second-list border d-flex flex-column px5"><img src="/images/html-img.png"class="mb-4" alt=""><div>HTML</div></li>
-                        <li class="second-list border d-flex flex-column px5"><img src="/images/css-img.png"class="mb-4" alt=""><div>CSS</div></li>
+                    <ul class="d-flex list-inline text-decoration-none justify-content-around">
+                        <li class="border d-flex flex-column px5"><img src="/images/js-img.png" class="m-4" alt=""><div>Javascript</div></li>
+                        <li class="border d-flex flex-column px5"><img src="/images/html-img.png"class="m-4" alt=""><div>HTML</div></li>
+                        <li class="border d-flex flex-column px5"><img src="/images/css-img.png"class="m-4" alt=""><div>CSS</div></li>
                     </ul>
                 </li>
-                <li class="list border-head">Frameworks <a href="#"><i class="fas fa-chevron-right"></i></a></li>                
-                <li class="list-head">SKills <a href="#"><i class="fas fa-chevron-right"></i></a></li>
+                <li class="d-flex flex-row justify-content-between border-bottom mt-4">Frameworks <a href="#"><i class="fas fa-chevron-right"></i></a></li>                
+                <li class="d-flex flex-row justify-content-between border-bottom mt-4">SKills <a href="#"><i class="fas fa-chevron-right"></i></a></li>
             </ul>
         </section>  
     </section>
-    <section class="form-container"> 
-        <div class="form-wrapper">
-            <div class="shapes-img"></div>     
-            <div class="form-page">
-            <h2>Contact me</h2>
-            <p>If you have an application you are interested in developing,
-                a feature that you need built or a project that needs coding.
-                I’d love to help with it </p>
-            <form class="form" action="https://formspree.io/f/xpzkolpr" method="POST">
-                <input type="text" name="name" class="name" placeholder="Enter your name" required maxlength="30">
-                <input type="email" name="email" class="email" placeholder="Enter your email" required>
-                <textarea name="message" class="message" placeholder="Enter your message" required maxlength="500"></textarea>
-                <button class="button contact-button" type="submit">Get In Touch</button>
-            </form>
-            </div>    
+    <section id="contact" class="form-container"> 
+        <div class="form-wrapper">    
+            <div class="text-container d-flex flex-column justify-content-center">
+                <h2>Contact me</h2>
+                <p>If you have an application you are interested in developing,
+                    a feature that you need built or a project that needs coding.
+                    I’d love to help with it </p>
+            </div>
+            <form class="d-flex flex-column align-items-center justify-content-center" action="https://formspree.io/f/xpzkolpr" method="POST">
+                <div class="contact-form form form-group">
+                    <input type="text" name="name" class="name form-control mt-3" placeholder="Enter your name" required maxlength="30">
+                    <input type="email" name="email" class="email form-control mt-3" placeholder="Enter your email" required>
+                    <textarea name="message" class="message form-control mt-3" placeholder="Enter your message" required maxlength="500"></textarea>
+                    <div class="d-flex justify-content-center">
+                        <input class="button contact-button mt-3" type="submit" value="Get In Touch">
+                    </div>
+                </div>
+            </form> 
         </div>         
     </section>
 </body>

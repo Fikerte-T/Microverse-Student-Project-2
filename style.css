@@ -9,7 +9,8 @@ body {
 #portfolio {
 	height: 100vh;
 	background: url(images/Header\ bg@2x.svg) no-repeat;
-	background-position: 100% 100%;
+	background-size: 100% 100%;
+	background-position: center;
 }
 
 .card-works {
@@ -55,10 +56,42 @@ body {
   color: #fff;
 }
 
-.aboutme-text {
+.aboutme-text,
+.aboutme-skills {
   width: 50%;
+  height: 70%;
 }
 
-ul ul {
-  list-style-type: none;
+.skill-list {
+  width: 60%;
+}
+
+.aboutme-container {
+  height: 100vh;
+}
+
+.form-container {
+	height: 100vh;
+  background-color: #6070ff;
+	
+}
+
+.form-wrapper {
+  background:
+    url(images/desktop-contact-1.png) no-repeat;
+	background-size: 100% 100%;
+	background-position: center;
+  height: 90%;
+}
+
+.contact-form {
+  width: 60%;
+}
+
+.contact-button {
+  width: 30%;
+}
+
+.text-container {
+  width: 70%;
 }
