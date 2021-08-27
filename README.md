@@ -7,7 +7,6 @@
 ![Project site](https://fikerte-t.github.io/Microverse-Student-Project-2/)
 ![screenshot](https://github.com/Fikerte-T/Microverse-Student-Project-2/blob/prototype-desktopversion/images/project-screenshot.png)
 
-Additional description about the project and its features.
 
 ## Built With
 
