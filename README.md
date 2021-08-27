@@ -4,7 +4,8 @@
 
 > This is a portfolio site built by Fikerte and Fobadara with HTML, CSS, and Bootstrap. The site use one of the templates in figma and is beautiful and responsive.
 
-![screenshot](./app_screenshot.png)
+![Project site](https://fikerte-t.github.io/Microverse-Student-Project-2/)
+![screenshot](https://github.com/Fikerte-T/Microverse-Student-Project-2/blob/prototype-desktopversion/images/project-screenshot.png)
 
 Additional description about the project and its features.
 
