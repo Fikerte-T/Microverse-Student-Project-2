@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Portfolio prototype using Bootstrap
 
 > This is a portfolio site built by Fikerte and Fobadara with HTML, CSS, and Bootstrap. The site use one of the templates in figma and is beautiful and responsive.
 
