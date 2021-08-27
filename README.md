@@ -50,9 +50,9 @@ You will be needing:
 
 👤 **Fikerte**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- Github: [@Fikerte-T](https://github.com/Fikerte-T)
+- Twitter: [@tofikertesfaye](https://twitter.com/home)
+- Linkedin: [Linkedin](https://www.linkedin.com/in/fikerte-tesfaye-a68337216/)
 
 👤 **Abdulfatai Badara**
 

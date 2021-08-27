@@ -1,32 +1,32 @@
 body {
-	font-family: "poppins", Helvetica, sans-serif;
+  font-family: "poppins", Helvetica, sans-serif;
 }
 
 .navbar {
-    justify-content: space-between;
-  }
+  justify-content: space-between;
+}
 
 #portfolio {
-	height: 100vh;
-	background: url(images/Header\ bg@2x.svg) no-repeat;
-	background-size: 100% 100%;
-	background-position: center;
+  height: 100vh;
+  background: url(images/Header\ bg@2x.svg) no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
 }
 
 .card-works {
-	width: 80%;
+  width: 80%;
 }
 
 .works-image,
 .works-text {
-	width: 50%;
+  width: 50%;
 }
 
 .languages li {
-	color: #6070ff;
+  color: #6070ff;
   padding: 4px 12px;
   background-color: #ebebff;
-	border-radius: 8px;
+  border-radius: 8px;
 }
 
 .button {
@@ -71,16 +71,14 @@ body {
 }
 
 .form-container {
-	height: 100vh;
+  height: 100vh;
   background-color: #6070ff;
-	
 }
 
 .form-wrapper {
-  background:
-    url(images/desktop-contact-1.png) no-repeat;
-	background-size: 100% 100%;
-	background-position: center;
+  background: url(images/desktop-contact-1.png) no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
   height: 90%;
 }
 
